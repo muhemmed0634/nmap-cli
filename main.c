@@ -78,6 +78,9 @@ int main() {
     printf("11 :QUIT NMAP\n");
     printf("Enter OPTION: ");
     scanf("%d",&option);
+    if (option == 11) {
+        exit(0);
+    }
     printf("Please enter IP adress :");
     scanf("%511s",ip_adress);
         if (option == 1) {
@@ -111,11 +114,8 @@ int main() {
         else if (option == 10) {
             slow_comphensive_scan(ip_adress);
         }
-        else if (option == 11) {
-            exit(0);
-        }
         else {
          printf("Invalid option");
         }
-        
+
     }

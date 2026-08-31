@@ -18,8 +18,8 @@ sudo dnf install nmap
 # For Arch Linux and derivatives, use:
 
 sudo pacman -S nmap
-#2.clone this repo:
+# 2.clone this repo:
 git clone https://github.com/muhemmed0634/nmap-cli/
-#3. go to releases and run elf file
-#4.finish
-#its maked by muhemmed powered by nmap
+# 3. go to releases and run elf file
+# 4.finish
+# it's maked by muhemmed powered by nmap

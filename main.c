@@ -80,8 +80,6 @@ int main() {
     scanf("%d",&option);
     printf("Please enter IP adress :");
     scanf("%511s",ip_adress);
-    while (1) {
-
         if (option == 1) {
             intense_scan(ip_adress);
         }
@@ -119,5 +117,5 @@ int main() {
         else {
          printf("Invalid option");
         }
-        }
+        
     }

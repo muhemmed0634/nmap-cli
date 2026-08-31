@@ -21,3 +21,6 @@ sudo pacman -S nmap
 # 2. go to releases and run elf file
 # 3.finish
 # it's maked by muhemmed powered by nmap
+------------------------------------------------------
+how to use:
+you select options and scannning

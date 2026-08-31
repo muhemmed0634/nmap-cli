@@ -76,11 +76,12 @@ int main() {
     printf("9 : REGULAR SCAN\n");
     printf("10 : SLOW COMPHENSIVE SCAN\n");
     printf("11 :QUIT NMAP\n");
+    printf("Enter OPTION: ");
+    scanf("%d",&option);
     printf("Please enter IP adress :");
     scanf("%511s",ip_adress);
     while (1) {
-        printf("Enter OPTION: ");
-        scanf("%d",&option);
+
         if (option == 1) {
             intense_scan(ip_adress);
         }
